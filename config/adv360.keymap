@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5               &trans                                                                  &mo 3  &kp N6  &kp KP_NUM   &kp EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T             &kp RALT                                                                &kp TAB   &kp Y   &kp KP_N7   &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G            &kp RCTRL  &kp INSERT  &kp LGUI                   &kp LALT  &kp LCTRL      &kp B   &kp H   &kp KP_N4   &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                   &kp HOME                  &kp PG_UP                         &kp N   &kp KP_N1   &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                     &kp BSPC     &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE           &kp KP_N0  &kp KP_DOT         &kp UP         &kp DOWN      &mo 2
+   &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5               &none                                                                &mo 3  &kp KP_NUM  &kp KP_N7   &kp KP_N8  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+ &kp GRAVE   &kp Q   &kp W   &kp E   &kp R   &kp T               &none                                                             &kp BSLH       &none  &kp KP_N4   &kp KP_N5      &kp KP_N9     &kp KP_MINUS   &kp BSLH
+ &kp LSHFT   &kp A   &kp S   &kp D   &kp F   &kp G             &kp TAB    &mo 2   &kp LGUI                     &trans      &mo 2      &none       &none  &kp KP_N1   &kp KP_N2      &kp KP_N6      &kp KP_PLUS    &kp SQT
+     &none   &kp Z   &kp X   &kp C   &kp V   &kp B                                &kp LALT                   &kp RALT                             &none  &kp KP_N1  &kp KP_DOT      &kp KP_N3     &kp KP_ENTER      &none
+  &kp CAPS   &none   &none   &none   &none                    &kp BSPC  &kp DEL  &kp LCTRL                  &kp RCTRL  &kp ENTER  &kp SPACE               &kp LEFT      &kp UP         &kp UP         &kp DOWN      &none
             >;
         };
 
