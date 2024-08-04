@@ -1,3 +1,21 @@
+macro_status: macro_status{
+compatible = "zmk,behavior-macro";
+label = "macro_status";
+#binding-cells = <0>;
+bindings = <&sk LC(LALT)>, <&kp DEL>;
+};
+macro_manager: macro_manager{
+compatible = "zmk,behavior-macro";
+label = "macro_manager";
+#binding-cells = <0>;
+bindings = <&sk LC(LSHIFT)>, <&kp ESC>;
+};
+macro_commemt: macro_commemt{
+compatible = "zmk,behavior-macro";
+label = "macro_commemt";
+#binding-cells = <0>;
+bindings = <&kp SLASH>, <&kp STAR>, <&kp ENTER>, <&kp STAR>, <&kp SLASH>, <&kp UP>;
+};
 macro_valuepaste: macro_valuepaste{
 compatible = "zmk,behavior-macro";
 label = "macro_valuepaste";
