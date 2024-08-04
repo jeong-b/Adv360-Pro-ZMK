@@ -64,7 +64,7 @@
  &trans  &macro_triple_grave   &macro_grave    &macro_quotes  &macro_dquotes  &trans            &kp C_MUTE                                                  &kp C_VOL_UP   &macro_redo  &trans  &trans       &trans   &trans   &trans
  &trans        &macro_braces  &macro_parens  &macro_brackets          &trans  &trans                 &none  &trans  &trans                  &trans  &trans  &kp C_VOL_DN  &kp C_BRI_UP  &trans  &trans  &macro_lock   &trans   &trans
  &trans               &trans         &trans           &trans          &trans  &trans                                &trans                  &trans                        &kp C_BRI_DN  &trans  &trans       &trans   &trans   &trans
- &trans               &trans         &trans           &trans          &trans                        &trans  &trans  &trans                  &trans  &trans        &trans                &trans  &trans       &trans   &trans   &trans
+ &trans               &trans         &trans           &trans          &trans                        &trans  &trans   &none                  &trans  &trans        &trans                &trans  &trans       &trans   &trans   &trans
             >;
         };
 
