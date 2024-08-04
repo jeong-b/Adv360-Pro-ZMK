@@ -52,18 +52,6 @@ label = "macro_left_desktop";
 #binding-cells = <0>;
 bindings = <&sk LC(LGUI)>, <&kp LEFT>;
 };
-macro_right_task: macro_right_task{
-compatible = "zmk,behavior-macro";
-label = "macro_right_task";
-#binding-cells = <0>;
-bindings = <&kp LA(TAB)>;
-};
-macro_left_task: macro_left_task{
-compatible = "zmk,behavior-macro";
-label = "macro_left_task";
-#binding-cells = <0>;
-bindings = <&kp LA(LS(TAB))>;
-};
 macro_right_tab: macro_right_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_right_tab";
