@@ -14,7 +14,7 @@ macro_commemt: macro_commemt{
 compatible = "zmk,behavior-macro";
 label = "macro_commemt";
 #binding-cells = <0>;
-bindings = <&kp SLASH>, <&kp STAR>, <&kp ENTER>, <&kp STAR>, <&kp SLASH>, <&kp UP>;
+bindings = <&kp SLASH>, <&kp STAR>, <&kp ENTER>, <&kp ENTER>, <&kp STAR>, <&kp SLASH>, <&kp UP>;
 };
 macro_valuepaste: macro_valuepaste{
 compatible = "zmk,behavior-macro";
@@ -56,13 +56,13 @@ macro_right_task: macro_right_task{
 compatible = "zmk,behavior-macro";
 label = "macro_right_task";
 #binding-cells = <0>;
-bindings = <&sk LALT>, <&kp TAB>;
+bindings = <&kt LALT>, <&kp TAB>;
 };
 macro_left_task: macro_left_task{
 compatible = "zmk,behavior-macro";
 label = "macro_left_task";
 #binding-cells = <0>;
-bindings = <&sk LS(LALT)>, <&kp TAB>;
+bindings = <&kt LA(LSHIFT)>, <&kp TAB>;
 };
 macro_right_tab: macro_right_tab{
 compatible = "zmk,behavior-macro";
