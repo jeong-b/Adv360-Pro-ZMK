@@ -2,7 +2,7 @@ macro_capture: macro_capture{
 compatible = "zmk,behavior-macro";
 label = "macro_capture";
 #binding-cells = <0>;
-bindings = <&sk LG(LSHIFT)>, <&kp S>;
+bindings = <&sk LGUI(LSHIFT)>, <&kp S>;
 };
 macro_lock: macro_lock{
 compatible = "zmk,behavior-macro";
