@@ -1,3 +1,9 @@
+macro_all_cut: macro_all_cut{
+compatible = "zmk,behavior-macro";
+label = "macro_all_cut";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp A>, <&sk LCTRL>, <&kp X>;
+};
 macro_ctrl_f5: macro_ctrl_f5{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_f5";
