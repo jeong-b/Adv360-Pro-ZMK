@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
-        &kp ESC    &kp N1     &kp N2     &kp N3   &kp N4  &kp N5             &kp DEL                                                                         &mo 3     &kp KP_NUM  &kp KP_N7   &kp KP_N8     &kp KP_N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-      &kp GRAVE     &kp Q      &kp W      &kp E    &kp R   &kp T             &kp INS                                                                   &kp KP_PLUS   &kp KP_MINUS  &kp KP_N4   &kp KP_N5     &kp KP_N6        &kp LEFT_BRACE        &kp RIGHT_BRACE
-      &kp PSCRN     &kp A      &kp S      &kp D    &kp F   &kp G             &kp TAB       &mo 2   &kp LGUI                     &trans      &mo 2  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp LEFT_BRACKET      &kp RIGHT_BRACKET
- &macro_capture     &kp Z      &kp X      &kp C    &kp V   &kp B                                   &kp LALT                   &kp RALT                               &kp KP_EQUAL  &kp KP_N0  &kp KP_DOT  &kp KP_ENTER           &kp PERCENT              &kp CARET
-       &kp CAPS  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END                    &kp BSPC  &kp LSHIFT  &kp LCTRL                  &kp RCTRL  &kp ENTER        &kp SPACE                  &kp LEFT      &kp UP        &kp UP              &kp DOWN               &kp AMPS
+   &kp ESC    &kp N1     &kp N2     &kp N3   &kp N4  &kp N5            &kp PSCRN                                                                              &mo 3     &kp KP_NUM  &kp KP_N7   &kp KP_N8     &kp KP_N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+ &kp GRAVE     &kp Q      &kp W      &kp E    &kp R   &kp T              &kp INS                                                                        &kp KP_PLUS   &kp KP_MINUS  &kp KP_N4   &kp KP_N5     &kp KP_N6        &kp LEFT_BRACE        &kp RIGHT_BRACE
+  &kp CAPS     &kp A      &kp S      &kp D    &kp F   &kp G              &kp TAB       &mo 2   &kp LGUI                          &trans      &mo 2  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+  &kp RALT     &kp Z      &kp X      &kp C    &kp V   &kp B                                    &kp LALT                         &kp DEL                               &kp KP_EQUAL  &kp KP_N0  &kp KP_DOT  &kp KP_ENTER           &kp PERCENT              &kp CARET
+ &kp RCTRL  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END                     &kp BSPC  &kp LSHIFT  &kp LCTRL                  &macro_capture  &kp ENTER        &kp SPACE                  &kp LEFT      &kp UP        &kp UP              &kp DOWN               &kp AMPS
             >;
         };
 
