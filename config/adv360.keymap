@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-       &kp F1               &kp F2          &kp F3           &kp F4             &kp F5        &kp F6              &macro_ctrl_f5                                                       &mo 3       &kp F7               &kp F8          &kp F9       &kp F10               &kp F11          &kp F12
- &macro_grave  &macro_triple_grave          &trans           &trans             &trans  &macro_retab             &macro_left_tab                                                      &trans  &macro_redo               &trans          &trans        &trans         &macro_screen    &macro_parens
-       &trans    &macro_all_delete          &trans           &trans             &trans        &trans            &macro_right_tab  &trans  &trans                  &tog 1  &trans  &kp C_MUTE       &trans               &trans  &macro_connect   &macro_lock        &macro_dquotes    &macro_quotes
-       &trans               &trans  &macro_all_cut  &macro_all_copy  &macro_valuepaste        &trans                                      &trans                  &trans                           &trans               &trans          &trans        &trans        &macro_commemt  &macro_brackets
-       &trans        &macro_status    &kp C_BRI_UP     &kp C_BRI_DN     &macro_manager                                    &trans  &trans  &trans                  &trans  &trans      &trans               &macro_left_desktop    &kp C_VOL_UP  &kp C_VOL_DN  &macro_right_desktop    &macro_braces
+       &kp F1               &kp F2              &kp F3           &kp F4             &kp F5        &kp F6              &macro_ctrl_f5                                                       &mo 3       &kp F7               &kp F8          &kp F9       &kp F10               &kp F11          &kp F12
+ &macro_grave  &macro_triple_grave  &macro_vs_terminal           &trans             &trans  &macro_retab             &macro_left_tab                                                      &trans  &macro_redo               &trans          &trans        &trans         &macro_screen    &macro_parens
+       &trans    &macro_all_delete              &trans           &trans             &trans        &trans            &macro_right_tab  &trans  &trans                  &tog 1  &trans  &kp C_MUTE       &trans               &trans  &macro_connect   &macro_lock        &macro_dquotes    &macro_quotes
+       &trans               &trans      &macro_all_cut  &macro_all_copy  &macro_valuepaste        &trans                                      &trans                  &trans                           &trans               &trans          &trans        &trans        &macro_commemt  &macro_brackets
+       &trans        &macro_status        &kp C_BRI_UP     &kp C_BRI_DN     &macro_manager                                    &trans  &trans  &trans                  &trans  &trans      &trans               &macro_left_desktop    &kp C_VOL_UP  &kp C_VOL_DN  &macro_right_desktop    &macro_braces
             >;
         };
 
