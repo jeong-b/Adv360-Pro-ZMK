@@ -1,3 +1,9 @@
+macro_vs_terminal: macro_vs_terminal{
+compatible = "zmk,behavior-macro";
+label = "macro_vs_terminal";
+#binding-cells = <0>;
+bindings = <&sk LS(LCTRL)>, <&kp GRAVE>;
+};
 macro_all_delete: macro_all_delete{
 compatible = "zmk,behavior-macro";
 label = "macro_all_delete";
