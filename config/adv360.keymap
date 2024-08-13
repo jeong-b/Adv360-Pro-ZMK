@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-   &kp ESC    &kp N1     &kp N2     &kp N3   &kp N4  &kp N5            &kp PSCRN                                                                        &mo 3  &kp N6    &kp N7     &kp N8    &kp N9     &kp N0  &kp EQUAL
- &kp GRAVE     &kp Q      &kp W      &kp E    &kp R   &kp T              &kp INS                                                                     &kp BSLH   &kp Y     &kp U      &kp I     &kp O      &kp P  &kp MINUS
-  &kp CAPS     &kp A      &kp S      &kp D    &kp F   &kp G              &kp TAB       &mo 2   &kp LGUI                          &tog 1      &mo 2      &kp B   &kp H     &kp J      &kp K     &kp L   &kp SEMI    &kp SQT
-  &kp RALT     &kp Z      &kp X      &kp C    &kp V   &kp B                                    &kp LALT                         &kp DEL                         &kp N     &kp M  &kp COMMA   &kp DOT   &kp FSLH   &kp LBKT
- &kp RCTRL  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END                     &kp BSPC  &kp LSHIFT  &kp LCTRL                  &macro_capture  &kp ENTER  &kp SPACE          &kp LEFT     &kp UP  &kp DOWN  &kp RIGHT   &kp RBKT
+   &kp ESC    &kp N1     &kp N2     &kp N3   &kp N4  &kp N5            &kp PSCRN                                                                        &mo 3  &kp N6    &kp N7     &kp N8   &kp N9     &kp N0  &kp EQUAL
+ &kp GRAVE     &kp Q      &kp W      &kp E    &kp R   &kp T              &kp INS                                                                     &kp BSLH   &kp Y     &kp U      &kp I    &kp O      &kp P  &kp MINUS
+  &kp CAPS     &kp A      &kp S      &kp D    &kp F   &kp G              &kp TAB       &mo 2   &kp LGUI                          &tog 1      &mo 2      &kp B   &kp H     &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
+  &kp RALT     &kp Z      &kp X      &kp C    &kp V   &kp B                                    &kp LALT                         &kp DEL                         &kp N     &kp M  &kp COMMA  &kp DOT   &kp FSLH   &kp LBKT
+ &kp RCTRL  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END                     &kp BSPC  &kp LSHIFT  &kp LCTRL                  &macro_capture  &kp ENTER  &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT   &kp RBKT
             >;
         };
 
@@ -54,7 +54,7 @@
  &kp GRAVE     &kp Q      &kp W      &kp E    &kp R   &kp T              &kp INS                                                                        &kp KP_PLUS   &kp KP_MINUS  &kp KP_N4   &kp KP_N5     &kp KP_N6        &kp LEFT_BRACE        &kp RIGHT_BRACE
   &kp CAPS     &kp A      &kp S      &kp D    &kp F   &kp G              &kp TAB       &mo 2   &kp LGUI                          &trans      &mo 2  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp LEFT_BRACKET      &kp RIGHT_BRACKET
   &kp RALT     &kp Z      &kp X      &kp C    &kp V   &kp B                                    &kp LALT                         &kp DEL                               &kp KP_EQUAL  &kp KP_N0  &kp KP_DOT  &kp KP_ENTER           &kp PERCENT              &kp CARET
- &kp RCTRL  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END                     &kp BSPC  &kp LSHIFT  &kp LCTRL                  &macro_capture  &kp ENTER        &kp SPACE                  &kp LEFT      &kp UP      &kp DOWN             &kp RIGHT               &kp AMPS
+ &kp RCTRL  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END                     &kp BSPC  &kp LSHIFT  &kp LCTRL                  &macro_capture  &kp ENTER        &kp SPACE                  &kp LEFT    &kp DOWN        &kp UP             &kp RIGHT               &kp AMPS
             >;
         };
 
@@ -64,7 +64,7 @@
  &macro_grave  &macro_triple_grave  &macro_vs_terminal           &trans             &trans  &macro_retab             &macro_left_tab                                                      &trans  &macro_redo               &trans          &trans        &trans         &macro_screen    &macro_parens
        &trans    &macro_all_delete              &trans           &trans             &trans        &trans            &macro_right_tab  &trans  &trans                  &tog 1  &trans  &kp C_MUTE       &trans               &trans  &macro_connect   &macro_lock        &macro_dquotes    &macro_quotes
        &trans               &trans      &macro_all_cut  &macro_all_copy  &macro_valuepaste        &trans                                      &trans                  &trans                           &trans               &trans          &trans        &trans        &macro_commemt  &macro_brackets
-       &trans        &macro_status        &kp C_BRI_UP     &kp C_BRI_DN     &macro_manager                                 &kp ENTER  &trans  &trans                  &trans  &trans      &trans               &macro_left_desktop    &kp C_VOL_UP  &kp C_VOL_DN  &macro_right_desktop    &macro_braces
+       &trans        &macro_status        &kp C_BRI_UP     &kp C_BRI_DN     &macro_manager                                 &kp ENTER  &trans  &trans                  &trans  &trans      &trans               &macro_left_desktop    &kp C_VOL_DN  &kp C_VOL_UP  &macro_right_desktop    &macro_braces
             >;
         };
 
