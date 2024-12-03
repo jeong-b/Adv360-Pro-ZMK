@@ -1,3 +1,9 @@
+macro_setting: macro_setting{
+compatible = "zmk,behavior-macro";
+label = "macro_setting";
+#binding-cells = <0>;
+bindings = <&sk LEFT_WIN>, <&kp I>;
+};
 macro_mini_terminal: macro_mini_terminal{
 compatible = "zmk,behavior-macro";
 label = "macro_mini_terminal";
